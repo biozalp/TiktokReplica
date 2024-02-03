@@ -11,6 +11,7 @@
 		CD196A2B2B6E7AD00071AD72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD196A2A2B6E7AD00071AD72 /* ContentView.swift */; };
 		CD196A2D2B6E7AD10071AD72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD196A2C2B6E7AD10071AD72 /* Assets.xcassets */; };
 		CD196A302B6E7AD10071AD72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD196A2F2B6E7AD10071AD72 /* Preview Assets.xcassets */; };
+		CD196A4D2B6E7CB00071AD72 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD196A4C2B6E7CB00071AD72 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CD196A2A2B6E7AD00071AD72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD196A2C2B6E7AD10071AD72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD196A2F2B6E7AD10071AD72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD196A4C2B6E7CB00071AD72 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,13 @@
 		CD196A272B6E7AD00071AD72 /* TiktokReplica */ = {
 			isa = PBXGroup;
 			children = (
+				CD196A362B6E7B760071AD72 /* App */,
+				CD196A372B6E7B900071AD72 /* Core */,
+				CD196A382B6E7B9A0071AD72 /* Extensions */,
+				CD196A3A2B6E7BA50071AD72 /* Model */,
+				CD196A3B2B6E7BA90071AD72 /* Services */,
+				CD196A392B6E7BA00071AD72 /* Utils */,
 				CD196A282B6E7AD00071AD72 /* TiktokReplicaApp.swift */,
-				CD196A2A2B6E7AD00071AD72 /* ContentView.swift */,
 				CD196A2C2B6E7AD10071AD72 /* Assets.xcassets */,
 				CD196A2E2B6E7AD10071AD72 /* Preview Content */,
 			);
@@ -65,6 +72,130 @@
 				CD196A2F2B6E7AD10071AD72 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD196A362B6E7B760071AD72 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CD196A372B6E7B900071AD72 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CD196A4B2B6E7C0A0071AD72 /* Auth */,
+				CD196A4A2B6E7C010071AD72 /* Comments */,
+				CD196A492B6E7BFF0071AD72 /* Components */,
+				CD196A482B6E7BFF0071AD72 /* Feed */,
+				CD196A472B6E7BFD0071AD72 /* Notifications */,
+				CD196A462B6E7BFC0071AD72 /* Profile */,
+				CD196A452B6E7BFB0071AD72 /* Root */,
+				CD196A442B6E7BFA0071AD72 /* Search */,
+				CD196A432B6E7BF90071AD72 /* TabBar */,
+				CD196A422B6E7BF80071AD72 /* UploadMedia */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CD196A382B6E7B9A0071AD72 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CD196A392B6E7BA00071AD72 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CD196A3A2B6E7BA50071AD72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD196A3B2B6E7BA90071AD72 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CD196A422B6E7BF80071AD72 /* UploadMedia */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadMedia;
+			sourceTree = "<group>";
+		};
+		CD196A432B6E7BF90071AD72 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CD196A4C2B6E7CB00071AD72 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CD196A442B6E7BFA0071AD72 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		CD196A452B6E7BFB0071AD72 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				CD196A2A2B6E7AD00071AD72 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		CD196A462B6E7BFC0071AD72 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CD196A472B6E7BFD0071AD72 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		CD196A482B6E7BFF0071AD72 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		CD196A492B6E7BFF0071AD72 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CD196A4A2B6E7C010071AD72 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		CD196A4B2B6E7C0A0071AD72 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +270,7 @@
 			files = (
 				CD196A2B2B6E7AD00071AD72 /* ContentView.swift in Sources */,
 				CD196A292B6E7AD00071AD72 /* TiktokReplicaApp.swift in Sources */,
+				CD196A4D2B6E7CB00071AD72 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
