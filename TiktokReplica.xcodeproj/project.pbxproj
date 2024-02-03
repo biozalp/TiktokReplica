@@ -12,6 +12,10 @@
 		CD196A2D2B6E7AD10071AD72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD196A2C2B6E7AD10071AD72 /* Assets.xcassets */; };
 		CD196A302B6E7AD10071AD72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD196A2F2B6E7AD10071AD72 /* Preview Assets.xcassets */; };
 		CD196A4D2B6E7CB00071AD72 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD196A4C2B6E7CB00071AD72 /* MainTabView.swift */; };
+		CD196A502B6E81770071AD72 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD196A4F2B6E81770071AD72 /* FeedView.swift */; };
+		CD196A522B6E82C00071AD72 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD196A512B6E82C00071AD72 /* FeedCell.swift */; };
+		CD196A542B6E87930071AD72 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD196A532B6E87930071AD72 /* ExploreView.swift */; };
+		CD196A562B6E87A70071AD72 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD196A552B6E87A70071AD72 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		CD196A2C2B6E7AD10071AD72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD196A2F2B6E7AD10071AD72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD196A4C2B6E7CB00071AD72 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		CD196A4F2B6E81770071AD72 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		CD196A512B6E82C00071AD72 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		CD196A532B6E87930071AD72 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		CD196A552B6E87A70071AD72 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +152,8 @@
 		CD196A442B6E7BFA0071AD72 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				CD196A532B6E87930071AD72 /* ExploreView.swift */,
+				CD196A552B6E87A70071AD72 /* UserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -173,6 +183,8 @@
 		CD196A482B6E7BFF0071AD72 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				CD196A4F2B6E81770071AD72 /* FeedView.swift */,
+				CD196A512B6E82C00071AD72 /* FeedCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -268,9 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD196A502B6E81770071AD72 /* FeedView.swift in Sources */,
+				CD196A522B6E82C00071AD72 /* FeedCell.swift in Sources */,
 				CD196A2B2B6E7AD00071AD72 /* ContentView.swift in Sources */,
 				CD196A292B6E7AD00071AD72 /* TiktokReplicaApp.swift in Sources */,
+				CD196A542B6E87930071AD72 /* ExploreView.swift in Sources */,
 				CD196A4D2B6E7CB00071AD72 /* MainTabView.swift in Sources */,
+				CD196A562B6E87A70071AD72 /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
