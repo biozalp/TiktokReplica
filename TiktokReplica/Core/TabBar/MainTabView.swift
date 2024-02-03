@@ -24,7 +24,7 @@ struct MainTabView: View {
                 .onAppear { selectedTab = 0 }
                 .tag(0)
                 
-            Text("Friends")
+            ExploreView()
                 .tabItem {
                     VStack{
                         Image(systemName: selectedTab == 1 ? "person.3.fill" : "person.3")
@@ -41,7 +41,7 @@ struct MainTabView: View {
                         
                     }
                 }
-            Text("Notifications")
+            NotificationsView()
                 .tabItem {
                     VStack{
                         Image(systemName: selectedTab == 3 ? "heart.fill": "heart")

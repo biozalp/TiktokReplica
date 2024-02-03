@@ -24,7 +24,7 @@ struct UserCell: View {
                 
             }
             Spacer()
-        }.padding()
+        }
         
     }
 }
