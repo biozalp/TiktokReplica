@@ -18,6 +18,8 @@
 		CD196A562B6E87A70071AD72 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD196A552B6E87A70071AD72 /* UserCell.swift */; };
 		CD196A582B6E94390071AD72 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD196A572B6E94390071AD72 /* NotificationsView.swift */; };
 		CD196A5A2B6E94410071AD72 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD196A592B6E94410071AD72 /* NotificationCell.swift */; };
+		CD3BFD9A2B72760100ECC8B2 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3BFD992B72760100ECC8B2 /* CurrentUserProfileView.swift */; };
+		CD3BFD9C2B72766F00ECC8B2 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3BFD9B2B72766F00ECC8B2 /* ProfileHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		CD196A552B6E87A70071AD72 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		CD196A572B6E94390071AD72 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		CD196A592B6E94410071AD72 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		CD3BFD992B72760100ECC8B2 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		CD3BFD9B2B72766F00ECC8B2 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +177,8 @@
 		CD196A462B6E7BFC0071AD72 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				CD3BFD992B72760100ECC8B2 /* CurrentUserProfileView.swift */,
+				CD3BFD9B2B72766F00ECC8B2 /* ProfileHeaderView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -288,11 +294,13 @@
 			files = (
 				CD196A502B6E81770071AD72 /* FeedView.swift in Sources */,
 				CD196A5A2B6E94410071AD72 /* NotificationCell.swift in Sources */,
+				CD3BFD9C2B72766F00ECC8B2 /* ProfileHeaderView.swift in Sources */,
 				CD196A522B6E82C00071AD72 /* FeedCell.swift in Sources */,
 				CD196A2B2B6E7AD00071AD72 /* ContentView.swift in Sources */,
 				CD196A292B6E7AD00071AD72 /* TiktokReplicaApp.swift in Sources */,
 				CD196A542B6E87930071AD72 /* ExploreView.swift in Sources */,
 				CD196A4D2B6E7CB00071AD72 /* MainTabView.swift in Sources */,
+				CD3BFD9A2B72760100ECC8B2 /* CurrentUserProfileView.swift in Sources */,
 				CD196A562B6E87A70071AD72 /* UserCell.swift in Sources */,
 				CD196A582B6E94390071AD72 /* NotificationsView.swift in Sources */,
 			);
