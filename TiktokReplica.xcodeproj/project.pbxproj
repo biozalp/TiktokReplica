@@ -20,6 +20,10 @@
 		CD196A5A2B6E94410071AD72 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD196A592B6E94410071AD72 /* NotificationCell.swift */; };
 		CD3BFD9A2B72760100ECC8B2 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3BFD992B72760100ECC8B2 /* CurrentUserProfileView.swift */; };
 		CD3BFD9C2B72766F00ECC8B2 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3BFD9B2B72766F00ECC8B2 /* ProfileHeaderView.swift */; };
+		CD3BFDA02B72794300ECC8B2 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3BFD9F2B72794300ECC8B2 /* UserStatView.swift */; };
+		CD3BFDA22B727B4300ECC8B2 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3BFDA12B727B4300ECC8B2 /* PostGridView.swift */; };
+		CD3BFDA42B72814200ECC8B2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3BFDA32B72814200ECC8B2 /* Post.swift */; };
+		CD3BFDA92B7281B300ECC8B2 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3BFDA82B7281B300ECC8B2 /* FeedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		CD196A592B6E94410071AD72 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		CD3BFD992B72760100ECC8B2 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
 		CD3BFD9B2B72766F00ECC8B2 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		CD3BFD9F2B72794300ECC8B2 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		CD3BFDA12B727B4300ECC8B2 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		CD3BFDA32B72814200ECC8B2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CD3BFDA82B7281B300ECC8B2 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +139,7 @@
 		CD196A3A2B6E7BA50071AD72 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CD3BFDA32B72814200ECC8B2 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,8 +186,8 @@
 		CD196A462B6E7BFC0071AD72 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				CD3BFD992B72760100ECC8B2 /* CurrentUserProfileView.swift */,
-				CD3BFD9B2B72766F00ECC8B2 /* ProfileHeaderView.swift */,
+				CD3BFD9E2B72792C00ECC8B2 /* View */,
+				CD3BFD9D2B72792300ECC8B2 /* Components */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -195,8 +204,9 @@
 		CD196A482B6E7BFF0071AD72 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				CD196A4F2B6E81770071AD72 /* FeedView.swift */,
-				CD196A512B6E82C00071AD72 /* FeedCell.swift */,
+				CD3BFDA72B72819000ECC8B2 /* ViewModel */,
+				CD3BFDA62B72818B00ECC8B2 /* View */,
+				CD3BFDA52B72818300ECC8B2 /* Service */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -220,6 +230,48 @@
 			children = (
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		CD3BFD9D2B72792300ECC8B2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CD3BFD9F2B72794300ECC8B2 /* UserStatView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CD3BFD9E2B72792C00ECC8B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD3BFD992B72760100ECC8B2 /* CurrentUserProfileView.swift */,
+				CD3BFD9B2B72766F00ECC8B2 /* ProfileHeaderView.swift */,
+				CD3BFDA12B727B4300ECC8B2 /* PostGridView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD3BFDA52B72818300ECC8B2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CD3BFDA62B72818B00ECC8B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD196A4F2B6E81770071AD72 /* FeedView.swift */,
+				CD196A512B6E82C00071AD72 /* FeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD3BFDA72B72819000ECC8B2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CD3BFDA82B7281B300ECC8B2 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,12 +349,16 @@
 				CD3BFD9C2B72766F00ECC8B2 /* ProfileHeaderView.swift in Sources */,
 				CD196A522B6E82C00071AD72 /* FeedCell.swift in Sources */,
 				CD196A2B2B6E7AD00071AD72 /* ContentView.swift in Sources */,
+				CD3BFDA92B7281B300ECC8B2 /* FeedViewModel.swift in Sources */,
+				CD3BFDA42B72814200ECC8B2 /* Post.swift in Sources */,
 				CD196A292B6E7AD00071AD72 /* TiktokReplicaApp.swift in Sources */,
+				CD3BFDA22B727B4300ECC8B2 /* PostGridView.swift in Sources */,
 				CD196A542B6E87930071AD72 /* ExploreView.swift in Sources */,
 				CD196A4D2B6E7CB00071AD72 /* MainTabView.swift in Sources */,
 				CD3BFD9A2B72760100ECC8B2 /* CurrentUserProfileView.swift in Sources */,
 				CD196A562B6E87A70071AD72 /* UserCell.swift in Sources */,
 				CD196A582B6E94390071AD72 /* NotificationsView.swift in Sources */,
+				CD3BFDA02B72794300ECC8B2 /* UserStatView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
