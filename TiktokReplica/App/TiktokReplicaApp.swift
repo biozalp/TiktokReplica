@@ -11,7 +11,7 @@ import SwiftUI
 struct TiktokReplicaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
     }
 }
